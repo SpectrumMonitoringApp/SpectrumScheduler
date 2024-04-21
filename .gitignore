@@ -1,0 +1,14 @@
+__pycache__/
+
+# Virtualenv
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE - PyCharm
+.idea/
+
+# Operating System - MacOS specific
+.DS_Store
