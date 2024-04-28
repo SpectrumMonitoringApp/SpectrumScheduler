@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir asyncio aiokafka aiohttp
+RUN pip install --no-cache-dir asyncio aiokafka aiohttp python-dotenv
 
 # Run your program when the container launches
 CMD ["python", "./main.py"]

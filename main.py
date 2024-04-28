@@ -167,7 +167,5 @@ async def main():
 
     except Exception as error:
         print(error)
-        print("The linux_interaction() function wasn't executed.")
-
 
 asyncio.run(main())
